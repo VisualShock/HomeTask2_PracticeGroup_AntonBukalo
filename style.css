@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    align-items: center;
+    margin:0 auto;
+    padding:25px;
+    flex-direction: column;
+}
+td{
+    font-size: 18px;
+
+    text-align: center;
+    width: 60px;
+    padding: 15px;
+    background: #DDDDDD;
+}
+td:hover{
+    background: #888888;
+    cursor:pointer;
+}
+#reset{
+    background: #DDDDDD;
+    width:366px;
+    border: none;
+}
+#reset:hover{
+    background: #888888;
+    cursor:pointer;
+}
