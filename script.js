@@ -1,4 +1,4 @@
-let arr=[],game,ei=3,ej=3;
+let arr=[],game,ei,ej;
 
 function shuffle(arr){
     let j, temp;
@@ -62,6 +62,7 @@ function clickEvent(e) {
 function newGame() {
     arr = [[1,2,3,4], [5,6,7,8], [9,10,11,12], [13,14,15,""]];//generate game buttons
     arr = shuffle(arr);// shuffle game buttons
+    ei = 3,ej = 3;
     while (checkSolutions(arr)==false) //check solutions and shuffle
         arr = shuffle(arr);
     var table = document.createElement("table"),// create board
